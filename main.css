@@ -1,0 +1,50 @@
+
+
+.btn_num {
+
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block element */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add cursor on hover */
+    width: 40px; /* Set width */
+    height: 40px;
+    
+
+}
+
+
+.btn_signs {
+    background-color: #f44336; 
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add cursor on hover */
+    width: 40px; /* Set width */
+    height: 40px;
+
+}
+
+.calculator-display {
+    background-color: #f1f1f1; 
+    border: solid 1px #c1c1c1; 
+    padding: 10px; 
+    font-size: 2em; 
+    text-align: right; 
+    width: 260px;;
+  }
+
+
+  .board {
+   
+  }
