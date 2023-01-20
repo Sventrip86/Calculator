@@ -1,18 +1,36 @@
 
+body{
+    
+}
 
+h1{
+    text-align: center;
+    font-family: 'Montserrat'
+}
+
+
+
+.board {
+    background-color: #f1f1f1;
+    border: 5px solid black;
+    border-radius: 2%;
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+}
 .btn_num {
 
     background-color: #4CAF50; /* Green background */
-    border: none; /* Remove border */
-    color: white; /* White text */
-    padding: 15px 32px; /* Some padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Display as inline block element */
-    font-size: 16px; /* Set font size */
-    margin: 4px 2px; /* Add some margin */
-    cursor: pointer; /* Add cursor on hover */
-    width: 40px; /* Set width */
+    border: none; 
+    border-radius: 5%;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    width: 40px; 
     height: 40px;
     
 
@@ -27,6 +45,7 @@
     text-align: center; /* Center text */
     text-decoration: none; 
     display: inline-block; 
+    border-radius: 5%;
     font-size: 16px; 
     margin: 4px 2px; /* Add some margin */
     cursor: pointer; /* Add cursor on hover */
@@ -37,14 +56,13 @@
 
 .calculator-display {
     background-color: #f1f1f1; 
-    border: solid 1px #c1c1c1; 
+    border: solid 3px #c1c1c1; 
     padding: 10px; 
     font-size: 2em; 
     text-align: right; 
-    width: 260px;;
+    width: 260px;
+    margin-bottom: 20px;
+  
+    
   }
 
-
-  .board {
-   
-  }
