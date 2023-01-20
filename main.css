@@ -58,10 +58,11 @@ h1{
     background-color: #f1f1f1; 
     border: solid 3px #c1c1c1; 
     padding: 10px; 
-    font-size: 2em; 
+    font-size: 2.5em; 
     text-align: right; 
     width: 260px;
     margin-bottom: 20px;
+    font-family: 'Montserrat'
   
     
   }
