@@ -1,4 +1,36 @@
-const numbers = document.getElementsByClassName("btn_num");
+// creating the calculator object
+
+const calculator = {
+   displayValue: '0',
+   firstOperand: null,
+   waitingForSecondOperand: false,
+   operator: null,
+
+};
+
+function updateDisplay(){
+  //selecting the element with class calculator-display
+  const display = document.querySelector('.calculator-screen');
+  //updating value on display
+  display.value = calculator.displayValue
+}
+
+updateDisplay();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const numbers = document.getElementsByClassName("btn_num");
 const signs = document.getElementsByClassName("btn_signs");
 const display = document.getElementsByClassName("calculator-display");
 let displayNumbers = [];
@@ -24,9 +56,17 @@ for (let i = 0; i < signs.length; i++) {
         } else if (this.innerHTML === "C"){ //check for C press -> DO TO LOGIC !!!!!!!!!!!!!!!!!!!!!!!
             displayNumbers.length = 0;
             document.getElementById("calculator-display").innerHTML = "0"
-        } else {
+        } else if (this.innerHTML === "="){
+         console.log("PRESSED EQUAL")
+         
+
+      }       
+        
+        
+        else {
             displayNumbers.push(this.innerHTML);
             document.getElementById("calculator-display").innerHTML = displayNumbers.join(" ");
         }       
     });
   }
+*/
